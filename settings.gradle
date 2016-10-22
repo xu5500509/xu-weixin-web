@@ -1,0 +1,5 @@
+rootProject.name = 'xu-weixin-web'
+include 'xu-weixin-web-war'
+include 'xu-weixin-service'
+include 'xu-weixin-domain'
+

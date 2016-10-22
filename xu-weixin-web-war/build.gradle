@@ -1,0 +1,16 @@
+group 'com.xu.weixin'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.7
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':xu-weixin-service')
+}
